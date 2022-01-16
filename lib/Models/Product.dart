@@ -26,51 +26,58 @@ class Product {
 
 List<Product> product = [
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 18.00,
+    title: "Quinoa Salad",
+    image: "greek_quinoa_salad-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Fresh Vegetable",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 16.00,
+    title: "Chicken Salad",
+    image: "chicken_salad-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Delicated Salad",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 21.00,
+    title: "Grilled Chicken Salad",
+    image: "grilled-chicken-salad-68-of-71-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Salad with Grilled Chicken",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 23.00,
+    title: "Mixed Salad",
+    image: "mixed_sald-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Salad Fully Fruit",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 22.00,
+    title: "Quinoa Salad",
+    image: "quinoa_salad-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Salad with quinoa seed",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
   Product(
-      price: 16.00,
-      title: "Quinoa Salad",
-      image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Salad",
-      subTitle: "Tieton Armchair",
-      description:
-          "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
+    price: 26.00,
+    title: "Santa Fe Chicken Salad",
+    image:
+        "santa-fe-chicken-salad-with-tangy-lime-dressing-1-flavorthemoments.com_-300x300-removebg-preview.png",
+    category: "Salad",
+    subTitle: "Chicken Salad",
+    description:
+        "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.",
+  ),
 ];
