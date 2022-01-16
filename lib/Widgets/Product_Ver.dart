@@ -55,6 +55,9 @@ class ProductVer extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.center,

@@ -20,10 +20,10 @@ class ProductHor extends StatelessWidget {
     return GestureDetector(
       onTap: press,
       child: SizedBox(
-        height: defaultSize * 20,
+        height: defaultSize * 25,
         child: Stack(alignment: Alignment.centerLeft, children: <Widget>[
           Container(
-            height: 100,
+            height: 120,
             width: double.infinity,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50),
@@ -33,14 +33,14 @@ class ProductHor extends StatelessWidget {
           Positioned(
             left: -50,
             child: Container(
-              height: defaultSize * 15,
-              width: defaultSize * 15,
+              height: defaultSize * 17,
+              width: defaultSize * 17,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(60)),
                 boxShadow: [
                   BoxShadow(
-                      offset: Offset(10, 0),
-                      blurRadius: 10,
+                      offset: Offset(5, 0),
+                      blurRadius: 5,
                       color: colorHitam.withOpacity(0.3))
                 ],
                 image: DecorationImage(
@@ -54,7 +54,7 @@ class ProductHor extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
               height: 136,
-              width: MediaQuery.of(context).size.width - 120,
+              width: MediaQuery.of(context).size.width - 140,
               child: Row(
                 children: [
                   Column(

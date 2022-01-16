@@ -1,5 +1,5 @@
 class Product {
-  final int price;
+  final double price;
   final String title, category, image, subTitle, description;
 
   Product({
@@ -26,7 +26,7 @@ class Product {
 
 List<Product> product = [
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
@@ -34,7 +34,7 @@ List<Product> product = [
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
@@ -42,7 +42,7 @@ List<Product> product = [
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
@@ -50,7 +50,7 @@ List<Product> product = [
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
@@ -58,7 +58,7 @@ List<Product> product = [
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
@@ -66,7 +66,7 @@ List<Product> product = [
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
   Product(
-      price: 16,
+      price: 16.00,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
       category: "Salad",
