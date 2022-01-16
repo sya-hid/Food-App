@@ -17,9 +17,9 @@ class BottomNavBar extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(30)),
             boxShadow: [
               BoxShadow(
-                offset: Offset(0, -7),
-                blurRadius: 50,
-                color: colorHitam.withOpacity(0.5),
+                offset: Offset(0, -5),
+                blurRadius: 30,
+                color: colorHitam.withOpacity(0.85),
               ),
             ]),
         child: Row(
