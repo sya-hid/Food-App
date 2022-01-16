@@ -1,2 +1,3 @@
 # delicious_food
-(assets/Artboard–6.png)
+
+- [Screenshot](assets/Artboard–6.png)
