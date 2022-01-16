@@ -10,33 +10,39 @@ class BottomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(20),
-      child: ClipRRect(
-        borderRadius: BorderRadius.all(Radius.circular(30)),
-        child: Container(
-          height: 50,
-          color: colorHitam,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              IconButton(
-                icon: Icon(Icons.home_outlined),
-                onPressed: () {},
-                color: colorPutih,
+      child: Container(
+        height: 50,
+        decoration: BoxDecoration(
+            color: colorHitam,
+            borderRadius: BorderRadius.all(Radius.circular(30)),
+            boxShadow: [
+              BoxShadow(
+                offset: Offset(0, -7),
+                blurRadius: 50,
+                color: colorHitam.withOpacity(0.5),
               ),
-              IconButton(
-                  icon: Icon(Icons.wallet_membership_outlined),
-                  color: colorPutih,
-                  onPressed: () {}),
-              IconButton(
-                  icon: Icon(Icons.chat_outlined),
-                  color: colorPutih,
-                  onPressed: () {}),
-              IconButton(
-                  icon: Icon(Icons.person_outline),
-                  color: colorPutih,
-                  onPressed: () {}),
-            ],
-          ),
+            ]),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            IconButton(
+              icon: Icon(Icons.home_outlined),
+              onPressed: () {},
+              color: colorPutih,
+            ),
+            IconButton(
+                icon: Icon(Icons.wallet_membership_outlined),
+                color: colorPutih,
+                onPressed: () {}),
+            IconButton(
+                icon: Icon(Icons.chat_outlined),
+                color: colorPutih,
+                onPressed: () {}),
+            IconButton(
+                icon: Icon(Icons.person_outline),
+                color: colorPutih,
+                onPressed: () {}),
+          ],
         ),
       ),
     );

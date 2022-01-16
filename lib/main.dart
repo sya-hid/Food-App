@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
             Container(
               child: SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -133,33 +133,29 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
-            SizedBox(height: 5),
+            SizedBox(height: 20),
             Container(
-              height: defaultSize * 35,
+              height: defaultSize * 30,
               child: SingleChildScrollView(
                 scrollDirection: Axis.vertical,
                 child: Column(
                   children: [
-                    Padding(
-                      padding: EdgeInsets.all(defaultSize * 2),
-                      child: GridView.builder(
-                          shrinkWrap: true,
-                          physics: NeverScrollableScrollPhysics(),
-                          itemCount: product.length,
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                            mainAxisSpacing: 20,
-                            crossAxisSpacing: 20,
-                            crossAxisCount: 2,
-                            // SizeConfig.orientation == Orientation.portrait
-                            //     ? 2
-                            //     : 4,
-                            childAspectRatio: 0.693,
-                          ),
-                          itemBuilder: (context, index) => Product_Ver(
-                                product: product[index],
-                              )),
-                    )
+                    GridView.builder(
+                        shrinkWrap: true,
+                        physics: NeverScrollableScrollPhysics(),
+                        itemCount: product.length,
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          mainAxisSpacing: 20,
+                          crossAxisSpacing: 20,
+                          crossAxisCount: 2,
+                          // SizeConfig.orientation == Orientation.portrait
+                          //     ? 2
+                          //     : 4,
+                          childAspectRatio: 0.693,
+                        ),
+                        itemBuilder: (context, index) => Product_Ver(
+                              product: product[index],
+                            ))
                   ],
                 ),
               ),

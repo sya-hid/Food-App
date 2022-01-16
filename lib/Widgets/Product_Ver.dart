@@ -22,7 +22,7 @@ class Product_Ver extends StatelessWidget {
         children: <Widget>[
           Positioned(bottom: 0, child: Icon(Icons.add_circle)),
           Container(
-            height: defaultSize * 24,
+            height: defaultSize * 27,
             width: defaultSize * 15,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(60),
@@ -39,15 +39,23 @@ class Product_Ver extends StatelessWidget {
                   width: defaultSize * 15,
                   child: Image.asset('assets/image/png/' + product.image),
                 ),
-                Text(
-                  product.title,
-                  textAlign: TextAlign.center,
-                  style: textHitam.copyWith(fontSize: 14, fontWeight: bold),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      product.title,
+                      textAlign: TextAlign.center,
+                      style: textHitam.copyWith(fontSize: 14, fontWeight: bold),
+                    ),
+                    Text(product.subTitle,
+                        style: textHitam.copyWith(fontSize: 10)),
+                    Text('\$${product.price}',
+                        textAlign: TextAlign.center,
+                        style:
+                            textHitam.copyWith(fontSize: 12, fontWeight: bold)),
+                  ],
                 ),
-                Text(product.subTitle, style: textHitam.copyWith(fontSize: 10)),
-                Text('\$${product.price}',
-                    textAlign: TextAlign.center,
-                    style: textHitam.copyWith(fontSize: 12, fontWeight: bold)),
               ],
             ),
           ),

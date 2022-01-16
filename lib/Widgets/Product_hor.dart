@@ -1,4 +1,5 @@
 import 'package:delicious_food/Models/Product.dart';
+import 'package:delicious_food/size_config.dart';
 import 'package:delicious_food/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,10 @@ class Product_Hor extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
+    double defaultSize = SizeConfig.defaultSize;
     return SizedBox(
-      height: 150,
+      height: defaultSize * 20,
       child: Stack(alignment: Alignment.centerLeft, children: <Widget>[
         Container(
           height: 100,
@@ -26,14 +29,14 @@ class Product_Hor extends StatelessWidget {
         Positioned(
             left: -50,
             child: Container(
-                height: 130,
+                height: defaultSize * 20,
                 child: Image.asset('assets/image/png/' + product.image))),
         Positioned(
-          left: 80,
+          left: 120,
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
             height: 136,
-            width: MediaQuery.of(context).size.width - 80,
+            width: MediaQuery.of(context).size.width - 120,
             child: Row(
               children: [
                 Column(
