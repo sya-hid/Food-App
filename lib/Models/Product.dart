@@ -29,7 +29,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
@@ -37,7 +37,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
@@ -45,7 +45,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
@@ -53,7 +53,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
@@ -61,7 +61,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),
@@ -69,7 +69,7 @@ List<Product> product = [
       price: 16,
       title: "Quinoa Salad",
       image: "greek_quinoa_salad-removebg-preview.png",
-      category: "Chair",
+      category: "Salad",
       subTitle: "Tieton Armchair",
       description:
           "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."),

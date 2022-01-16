@@ -5,10 +5,12 @@ import 'package:flutter/material.dart';
 
 class ProductHor extends StatelessWidget {
   final Product product;
+  final Function press;
 
   const ProductHor({
     Key key,
-    this.product,
+    @required this.product,
+    @required this.press,
   }) : super(key: key);
 
   @override
@@ -16,9 +18,7 @@ class ProductHor extends StatelessWidget {
     SizeConfig().init(context);
     double defaultSize = SizeConfig.defaultSize;
     return GestureDetector(
-      onTap: () {
-        print('object');
-      },
+      onTap: press,
       child: SizedBox(
         height: defaultSize * 20,
         child: Stack(alignment: Alignment.centerLeft, children: <Widget>[
@@ -31,10 +31,24 @@ class ProductHor extends StatelessWidget {
             ),
           ),
           Positioned(
-              left: -50,
-              child: Container(
-                  height: defaultSize * 20,
-                  child: Image.asset('assets/image/png/' + product.image))),
+            left: -50,
+            child: Container(
+              height: defaultSize * 15,
+              width: defaultSize * 15,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(60)),
+                boxShadow: [
+                  BoxShadow(
+                      offset: Offset(10, 0),
+                      blurRadius: 10,
+                      color: colorHitam.withOpacity(0.3))
+                ],
+                image: DecorationImage(
+                  image: NetworkImage('assets/image/png/' + product.image),
+                ),
+              ),
+            ),
+          ),
           Positioned(
             left: 120,
             child: Container(

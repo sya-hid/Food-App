@@ -8,7 +8,8 @@ class ProductVer extends StatelessWidget {
   final Function press;
   const ProductVer({
     Key key,
-    @required this.product, @required this.press,
+    @required this.product,
+    @required this.press,
   }) : super(key: key);
 
   @override
@@ -29,7 +30,7 @@ class ProductVer extends StatelessWidget {
               width: defaultSize * 15,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(60),
-                color: colorHitam.withOpacity(0.2),
+                color: colorHitam.withOpacity(0.1),
               ),
             ),
             Positioned(
@@ -40,7 +41,19 @@ class ProductVer extends StatelessWidget {
                   Container(
                     height: defaultSize * 15,
                     width: defaultSize * 15,
-                    child: Image.asset('assets/image/png/' + product.image),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(60)),
+                      boxShadow: [
+                        BoxShadow(
+                            offset: Offset(0, 10),
+                            blurRadius: 10,
+                            color: colorHitam.withOpacity(0.3))
+                      ],
+                      image: DecorationImage(
+                        image:
+                            NetworkImage('assets/image/png/' + product.image),
+                      ),
+                    ),
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
